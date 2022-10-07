@@ -26,38 +26,23 @@ export default {
   ],
   menus: [
     {
-      name: "Our project",
+      name: "About us",
       items: [
-        { name: "about us", href: "https://www.creative-tim.com/presentation" },
-        { name: "freebies", href: "https://www.creative-tim.com/templates/free" },
-        { name: "premium tools", href: "https://www.creative-tim.com/templates/premium" },
-        { name: "blog", href: "https://www.creative-tim.com/blog" },
-      ],
-    },
-    {
-      name: "resources",
-      items: [
-        { name: "illustrations", href: "https://iradesign.io/" },
-        { name: "bits & snippets", href: "https://www.creative-tim.com/bits" },
-        { name: "affiliate program", href: "https://www.creative-tim.com/affiliates/new" },
-      ],
-    },
-    {
-      name: "help & support",
-      items: [
-        { name: "contact us", href: "https://www.creative-tim.com/contact-us" },
-        { name: "knowledge center", href: "https://www.creative-tim.com/knowledge-center" },
-        { name: "custom development", href: "https://services.creative-tim.com/" },
-        { name: "sponsorships", href: "https://www.creative-tim.com/sponsorships" },
+        { name: "The Project Organization", href: "https://www.creative-tim.com/presentation" },
+        { name: "The fundraising Team", href: "https://www.creative-tim.com/templates/free" },
+        { name: "The Renovation Team", href: "https://www.creative-tim.com/templates/premium" },
       ],
     },
     {
       name: "legal",
       items: [
-        { name: "terms & conditions", href: "https://www.creative-tim.com/terms" },
-        { name: "privacy policy", href: "https://www.creative-tim.com/privacy" },
-        { name: "licenses (EULA)", href: "https://www.creative-tim.com/license" },
+        { name: "Donations", href: "https://www.creative-tim.com/terms" },
+        { name: "Gifts", href: "https://www.creative-tim.com/privacy" },
       ],
+    },
+    {
+      name: "Press & Media",
+      items: [{ name: "News", href: "https://www.creative-tim.com/terms" }],
     },
   ],
   copyright: (
