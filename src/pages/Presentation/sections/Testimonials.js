@@ -75,6 +75,9 @@ function Information() {
           </Grid>
         </Grid>
         <Divider sx={{ my: 6 }} />
+        <MKTypography variant="h2" textAlign="center" paddingBottom="25px">
+          Our contributors
+        </MKTypography>
         <Grid container spacing={4} justifyContent="center" alignItems="center">
           <Grid item xs={6} md={4} lg={2}>
             <MKBox component="img" src={kiLogo} alt="Facebook" width="100%" opacity={0.6} />
