@@ -27,6 +27,7 @@ import DefaultReviewCard from "examples/Cards/ReviewCards/DefaultReviewCard";
 
 // Images
 import kiLogo from "assets/images/logos/rgb-logos/ki_logo_rgb.png";
+import mfLogo from "assets/images/logos/rgb-logos/MF_logo_BLACK.png";
 import apLogo from "assets/images/logos/rgb-logos/logo_appalume_crop.png";
 import hbbsLogo from "assets/images/logos/rgb-logos/HBBF.png";
 import azLogo from "assets/images/logos/rgb-logos/AZ_RGB_H_COL.png";
@@ -80,19 +81,50 @@ function Information() {
         </MKTypography>
         <Grid container spacing={4} justifyContent="center" alignItems="center">
           <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={kiLogo} alt="Facebook" width="100%" opacity={0.6} />
+            <a href="https://www.ki.se" target="_blank" rel="noreferrer">
+              <MKBox
+                component="img"
+                src={kiLogo}
+                alt="Karolinska Institutet"
+                width="100%"
+                opacity={0.6}
+              />
+            </a>
           </Grid>
           <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={apLogo} alt="Facebook" width="100%" opacity={0.6} />
+            <a href="https://www.medicinskaforeningen.se" target="_blank" rel="noreferrer">
+              <MKBox
+                component="img"
+                src={mfLogo}
+                alt="Medicinska Föreningen"
+                width="100%"
+                opacity={0.6}
+              />
+            </a>
           </Grid>
           <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={azLogo} alt="Facebook" width="100%" opacity={0.6} />
+            <a href="https://www.az.se" target="_blank" rel="noreferrer">
+              <MKBox component="img" src={azLogo} alt="Astra Zeneca" width="100%" opacity={0.6} />
+            </a>
           </Grid>
           <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={hbbsLogo} alt="Facebook" width="100%" opacity={0.6} />
+            <MKBox
+              component="img"
+              src={hbbsLogo}
+              alt="Hans och Barbera"
+              width="100%"
+              opacity={0.6}
+            />
           </Grid>
           <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={kmbsLogo} alt="Facebook" width="100%" opacity={0.6} />
+            <a href="https://www.beijerstiftelsen.se" target="_blank" rel="noreferrer">
+              <MKBox component="img" src={kmbsLogo} alt="Beijer" width="100%" opacity={0.6} />
+            </a>
+          </Grid>
+          <Grid item xs={6} md={4} lg={2}>
+            <a href="https://www.appalume.se" target="_blank" rel="noreferrer">
+              <MKBox component="img" src={apLogo} alt="Appalume AB" width="100%" opacity={0.6} />
+            </a>
           </Grid>
         </Grid>
       </Container>
