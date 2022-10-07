@@ -1,44 +1,32 @@
 // @mui icons
 import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import YouTubeIcon from "@mui/icons-material/YouTube";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 // Material Kit 2 React components
 import MKTypography from "components/MKTypography";
 
 // Images
-import logoCT from "assets/images/logo-ct-dark.png";
-
-const date = new Date().getFullYear();
+import logoFkh from "assets/images/logos/rgb-logos/favicon.png";
 
 export default {
   brand: {
-    name: "Material Kit 2",
-    image: logoCT,
+    name: "Framtidens kårhus",
+    image: logoFkh,
     route: "/",
   },
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/CreativeTim/",
+      link: "https://www.facebook.com/framtidenskarhus/",
     },
     {
-      icon: <TwitterIcon />,
-      link: "https://twitter.com/creativetim",
-    },
-    {
-      icon: <GitHubIcon />,
-      link: "https://github.com/creativetimofficial",
-    },
-    {
-      icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
+      icon: <InstagramIcon />,
+      link: "https://www.instagram.com/framtidenskarhus/",
     },
   ],
   menus: [
     {
-      name: "company",
+      name: "Our project",
       items: [
         { name: "about us", href: "https://www.creative-tim.com/presentation" },
         { name: "freebies", href: "https://www.creative-tim.com/templates/free" },
@@ -74,7 +62,18 @@ export default {
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Material Kit by{" "}
+      Built by{" "}
+      <MKTypography
+        component="a"
+        href="https://appalume.se"
+        target="_blank"
+        rel="noreferrer"
+        variant="button"
+        fontWeight="regular"
+      >
+        Appalume AB
+      </MKTypography>
+      , based on a material made by{" "}
       <MKTypography
         component="a"
         href="https://www.creative-tim.com"

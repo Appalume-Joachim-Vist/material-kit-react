@@ -39,11 +39,6 @@ Coded by www.creative-tim.com
 // @mui material components
 // import Icon from "@mui/material/Icon";
 
-// @mui icons
-// import GitHubIcon from "@mui/icons-material/GitHub";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
-
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
 // import ContactUs from "layouts/pages/landing-pages/contact-us";
@@ -281,14 +276,6 @@ const routes = [
     name: "About us",
     route: "/pages/landing-pages/about-us",
     component: <AboutUs />,
-  },
-  {
-    icon: <FacebookIcon />,
-    href: "https://www.facebook.com/framtidenskarhus",
-  },
-  {
-    icon: <InstagramIcon />,
-    href: "https://www.instagram.com/framtidenskarhus",
   },
 ];
 
