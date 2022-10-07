@@ -18,13 +18,14 @@ import PropTypes from "prop-types";
 
 // @mui material components
 import Icon from "@mui/material/Icon";
+import BusinessIcon from "@mui/icons-material/Business";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKAvatar from "components/MKAvatar";
 import MKTypography from "components/MKTypography";
 
-function DefaultReviewCard({ color, image, name, date, review, rating }) {
+function DefaultReviewCard({ color, image, name, company, review, rating }) {
   const ratings = {
     0.5: [
       <Icon key={1}>star_outline</Icon>,
@@ -133,8 +134,9 @@ function DefaultReviewCard({ color, image, name, date, review, rating }) {
           color={color === "transparent" || color === "light" ? "text" : "white"}
           sx={{ display: "flex", alignItems: "center" }}
         >
-          <Icon>schedule</Icon>&nbsp;
-          {date}
+          <BusinessIcon />
+          &nbsp;
+          {company}
         </MKTypography>
       </MKBox>
       <MKTypography
@@ -184,7 +186,7 @@ DefaultReviewCard.propTypes = {
   ]),
   image: PropTypes.string,
   name: PropTypes.string.isRequired,
-  date: PropTypes.string.isRequired,
+  company: PropTypes.string.isRequired,
   review: PropTypes.string.isRequired,
   rating: PropTypes.oneOf([1, 2, 3, 4, 5]).isRequired,
 };

@@ -26,11 +26,11 @@ import MKTypography from "components/MKTypography";
 import DefaultReviewCard from "examples/Cards/ReviewCards/DefaultReviewCard";
 
 // Images
-import appleLogo from "assets/images/logos/gray-logos/logo-apple.svg";
-import facebookLogo from "assets/images/logos/gray-logos/logo-facebook.svg";
-import nasaLogo from "assets/images/logos/gray-logos/logo-nasa.svg";
-import vodafoneLogo from "assets/images/logos/gray-logos/logo-vodafone.svg";
-import digitalOceanLogo from "assets/images/logos/gray-logos/logo-digitalocean.svg";
+import kiLogo from "assets/images/logos/rgb-logos/ki_logo_rgb.png";
+import mfLogo from "assets/images/logos/rgb-logos/MF_logo_BLACK.png";
+import hbbsLogo from "assets/images/logos/rgb-logos/HBBF.png";
+import azLogo from "assets/images/logos/rgb-logos/AZ_RGB_H_COL.png";
+import kmbsLogo from "assets/images/logos/rgb-logos/KMBS.png";
 
 function Information() {
   return (
@@ -44,64 +44,52 @@ function Information() {
           justifyContent="center"
           sx={{ mx: "auto", textAlign: "center" }}
         >
-          <MKTypography variant="h2">Trusted by over</MKTypography>
-          <MKTypography variant="h2" color="info" textGradient mb={2}>
-            1,679,477+ web developers
-          </MKTypography>
-          <MKTypography variant="body1" color="text" mb={2}>
-            Many Fortune 500 companies, startups, universities and governmental institutions love
-            Creative Tim&apos;s products.
-          </MKTypography>
+          <MKTypography variant="h2">Testimonials</MKTypography>
         </Grid>
         <Grid container spacing={3} sx={{ mt: 8 }}>
           <Grid item xs={12} md={6} lg={4}>
             <DefaultReviewCard
-              name="Nick Willever"
-              date="1 day ago"
-              review="This is an excellent product, the documentation is excellent and helped me get things done more efficiently."
-              rating={5}
+              company="Rektor Karolinska Institutet"
+              name="Ole Petter Ottersen"
+              review="Som rektor vid Karolinska Institutet är studenternas utveckling alltid min högsta prioritet.
+              Vi har ett universitet i världsklass men utan ett nav för möten, nätverk och samarbeten kan studenternas lärande inte uppnå sin fulla potential. Därför är Framtidens Kårhus ett oerhört viktigt projekt. Studenterna behöver en plats där de kan utvecklas och möta andra studenter, representanter för sjukvård, myndigheter och näringsliv samt lärare och forskare och samtala om viktiga framtidsfrågor. Framtidens Kårhus blir en mötesplats för medicinens frontlinje och ger våra studenter möjlighet att utvecklas på ett personligt plan utöver allt som utbildningen i övrigt ger."
             />
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
             <DefaultReviewCard
               color="info"
-              name="Shailesh Kushwaha"
-              date="1 week ago"
-              review="I found solution to all my design needs from Creative Tim. I use them as a freelancer in my hobby projects for fun! And its really affordable, very humble guys !!!"
-              rating={5}
+              company="MF Ordförande 2018"
+              name="Iris Peña Arriarán"
+              review="Utan MF och vårt kårhus hade jag personligen inte blivit den läkare jag är idag. Jag har utvecklats som människa och blivit vuxen innanför dess väggar. 
+              MF är en gemenskap man bär med sig resten av livet och det är alltid lika spännande när man träffar en före detta MF aktiv, ofta flera generationer äldre eller yngre, som har sina egna historier från huset att dela. 
+              Jag kommer alltid att vilja vara en aktiv alumn och följer med spänning den utveckling som sker just nu! Vi måste fortsätta att stödja vår kår, vårt kårhus och dess fortlevnad jämte vårt alma mater KI som vore desto fattigare utan det stora engagemang som Medicinska Föreningen uppmuntrar bland studenterna."
             />
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
             <DefaultReviewCard
-              name="Samuel Kamuli"
-              date="3 weeks ago"
-              review="Great product. Helped me cut the time to set up a site. I used the components within instead of starting from scratch. I highly recommend for developers who want to spend more time on the backend!."
-              rating={5}
+              company="Medicinska Föreningens Ordförande 1984, Hälsa och -sjukvårdsdirektör SLSO"
+              name="Mikael Ohrling"
+              review="Vid en tidpunkt för snart fyra decennier sedan stod vi studenter vid Karolinska Institutet inför katastrofen att bli 'kårhuslösa'. Som Ordförande vid MF fick jag ansvar för bildandet av en kårhusstiftelse som förvärvade den 'gamla flygen' och uppförde det 'nya kårhuset'. 
+              Mellan det 'gamla' och det 'nya' kårhuset levde vi nära två år utan eget hus. Det var en smärtsam period. Det blev uppenbart för oss alla att ett eget hus är 'hjärtat' i en studentkår [...] Framtidens Kårhus stärker studentkåren som mötesplats. Här kommer våra framtida kollegor och medarbetare kunna utvecklas. Mitt på campus av ett av världens mest framstående medicinska universitet erbjuds unika möten och oanade möjligheter."
             />
           </Grid>
         </Grid>
         <Divider sx={{ my: 6 }} />
-        <Grid container spacing={3} justifyContent="center">
+        <Grid container spacing={4} justifyContent="center" alignItems="center">
           <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={appleLogo} alt="Apple" width="100%" opacity={0.6} />
+            <MKBox component="img" src={kiLogo} alt="Facebook" width="100%" opacity={0.6} />
           </Grid>
           <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={facebookLogo} alt="Facebook" width="100%" opacity={0.6} />
+            <MKBox component="img" src={mfLogo} alt="Facebook" width="100%" opacity={0.6} />
           </Grid>
           <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={nasaLogo} alt="Nasa" width="100%" opacity={0.6} />
+            <MKBox component="img" src={azLogo} alt="Facebook" width="100%" opacity={0.6} />
           </Grid>
           <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={vodafoneLogo} alt="Vodafone" width="100%" opacity={0.6} />
+            <MKBox component="img" src={hbbsLogo} alt="Facebook" width="100%" opacity={0.6} />
           </Grid>
           <Grid item xs={6} md={4} lg={2}>
-            <MKBox
-              component="img"
-              src={digitalOceanLogo}
-              alt="DigitalOcean"
-              width="100%"
-              opacity={0.6}
-            />
+            <MKBox component="img" src={kmbsLogo} alt="Facebook" width="100%" opacity={0.6} />
           </Grid>
         </Grid>
       </Container>
