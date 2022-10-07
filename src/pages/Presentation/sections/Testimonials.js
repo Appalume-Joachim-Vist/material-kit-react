@@ -27,7 +27,7 @@ import DefaultReviewCard from "examples/Cards/ReviewCards/DefaultReviewCard";
 
 // Images
 import kiLogo from "assets/images/logos/rgb-logos/ki_logo_rgb.png";
-import mfLogo from "assets/images/logos/rgb-logos/MF_logo_BLACK.png";
+import apLogo from "assets/images/logos/rgb-logos/logo_appalume_crop.png";
 import hbbsLogo from "assets/images/logos/rgb-logos/HBBF.png";
 import azLogo from "assets/images/logos/rgb-logos/AZ_RGB_H_COL.png";
 import kmbsLogo from "assets/images/logos/rgb-logos/KMBS.png";
@@ -83,7 +83,7 @@ function Information() {
             <MKBox component="img" src={kiLogo} alt="Facebook" width="100%" opacity={0.6} />
           </Grid>
           <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={mfLogo} alt="Facebook" width="100%" opacity={0.6} />
+            <MKBox component="img" src={apLogo} alt="Facebook" width="100%" opacity={0.6} />
           </Grid>
           <Grid item xs={6} md={4} lg={2}>
             <MKBox component="img" src={azLogo} alt="Facebook" width="100%" opacity={0.6} />
