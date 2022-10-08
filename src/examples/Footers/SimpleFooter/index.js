@@ -118,7 +118,7 @@ SimpleFooter.defaultProps = {
 
 // Typechecking props for the SimpleFooter
 SimpleFooter.propTypes = {
-  company: PropTypes.objectOf(PropTypes.string),
+  company: PropTypes.object(PropTypes.string),
   links: PropTypes.arrayOf(PropTypes.object),
   light: PropTypes.bool,
 };

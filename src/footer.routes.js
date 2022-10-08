@@ -26,14 +26,6 @@ export default {
   ],
   menus: [
     {
-      name: "About us",
-      items: [
-        { name: "The Project Organization", href: "https://www.creative-tim.com/presentation" },
-        { name: "The fundraising Team", href: "https://www.creative-tim.com/templates/free" },
-        { name: "The Renovation Team", href: "https://www.creative-tim.com/templates/premium" },
-      ],
-    },
-    {
       name: "legal",
       items: [
         { name: "Donations", href: "https://www.creative-tim.com/terms" },

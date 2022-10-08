@@ -267,10 +267,19 @@ const routes = [
   //   href: "https://www.github.com/creativetimofficial/material-kit-react",
   // },
   {
-    name: "Our Process",
+    name: "Vision mission",
   },
   {
-    name: "The project",
+    name: "Donors",
+  },
+  {
+    name: "The building",
+  },
+  {
+    name: "The process",
+  },
+  {
+    name: "Contact us",
   },
   {
     name: "About us",
